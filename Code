@@ -1,0 +1,6 @@
+n = int(input(":"))
+if n < 1000:
+    c = (n // 100)
+    d = ((n - (c*100))//10)
+    u = n - ((c*100)+(d*10))
+    print(c,'centenas',d,'dezenas',u,'unidades')
